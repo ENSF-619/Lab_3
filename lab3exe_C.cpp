@@ -8,7 +8,7 @@ using std::endl;
 using std::setw;
 using std::setfill;
 
-#include "lab3Clock.h"
+#include "Lab_3_Solution/Project1/lab3Clock.h"
 
 void print(const Clock& t);
 // REQUIRES: t refers to an object of class Clock with valid values.
@@ -45,7 +45,7 @@ int main(void) {
     t1.set_hour(60);
     cout << "Setting t1's hour to 60 (invalid value). Expected time is: 21:00:00\n";
     print(t1);
-
+    
     t2.set_minute(20);
     cout << "Setting t2's minute to 20. Expected time is: 23:20:59\n";
     print(t2);
@@ -57,7 +57,7 @@ int main(void) {
     t2.add_seconds(2350);
     cout << "Adding 2350 seconds to t2. Expected time is: 00:00:00\n";
     print(t2);
-
+    
     t2.add_seconds(72000);
     cout << "Adding 72000 seconds to t2. Expected time is: 20:00:00\n";
     print(t2);
@@ -74,7 +74,7 @@ int main(void) {
     t3.increment();
     cout << "Adding 1 second to clock t3. Expected time is: 00:00:01\n";
     print(t3);
-
+    
     t3.decrement();
     cout << "After calling decrement for t3. Expected time is: 00:00:00\n";
     print(t3);
@@ -90,7 +90,7 @@ int main(void) {
     
     cout << "After decrementing t3 by 86401 seconds. Expected time is: 23:59:59\n";
     print(t3);
-
+    
     for(int i = 0; i < 864010; i++)
         t3.decrement();
     

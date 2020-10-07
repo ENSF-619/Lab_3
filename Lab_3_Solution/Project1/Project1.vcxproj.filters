@@ -18,5 +18,13 @@
     <ClCompile Include="..\..\lab3exe_C.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab3Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lab3Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
