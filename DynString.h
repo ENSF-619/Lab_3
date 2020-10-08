@@ -35,7 +35,7 @@ public:
     //   (The first char in the string is at position 0.)
     
     const char * c_str() const;
-    // PROMISES:
+    // PROMISES :
     //   Return value points to first char in built-in string
     //   containing the chars of the string object.
     

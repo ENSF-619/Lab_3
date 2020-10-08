@@ -36,7 +36,7 @@ int main()
     
     cout << "If you press return your program may give an error." << endl;
     cout << "In your lab report discuss what is wrong with this program.";
-    cin.get(); // waiting for user to press return.
+    //cin.get(); // waiting for user to press return.
     
     return 0;
 }

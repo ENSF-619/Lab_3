@@ -6,6 +6,7 @@
 #include <assert.h>
 #include <string.h>
 #include "DynString.h"
+#pragma warning(disable:4996)
 
 DynString::DynString()
 : lengthM(0), storageM(new char[1])
