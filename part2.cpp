@@ -21,7 +21,7 @@ int main()
     x.truncate(0);
     cout << "Contents of x: \"" << x.c_str() << "\" (expected \"\")." << endl;
     cout << "Length of x: " << x.length() << " (expected 0).\n" << endl;
-#if 0
+
     x.append("foot");
     cout << "Contents of x: \"" << x.c_str() << "\" (expected \"foot\")." << endl;
     cout << "Length of x: " << x.length() << " (expected 4).\n" << endl;
@@ -31,7 +31,7 @@ int main()
     x.append(z);
     cout << "Contents of x: \"" << x.c_str() << "\" (expected \"football\")." << endl;
     cout << "Length of x: " << x.length() << " (expected 8).\n" << endl;;
-#endif
+
     
   return 0;
 }

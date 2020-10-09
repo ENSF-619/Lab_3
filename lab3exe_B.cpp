@@ -14,10 +14,10 @@ void global_print(const Cplx& n);
 int main(void)
 {
     Cplx num1;
-    cout << num1.getRealPart()<<"   "<<num1.getImaginaryPart()<< endl;
+    
     num1.setRealPart(666);
     
-    cout << num1.getRealPart() << "   " << num1.getImaginaryPart() << endl;
+   
     global_print(num1);
     
     Cplx num2(34, 5);

@@ -30,13 +30,15 @@ int main()
         DynString c = a;
         // point 3
     }
+ 
     
     delete b;
     // point 4
+   
     
     cout << "If you press return your program may give an error." << endl;
     cout << "In your lab report discuss what is wrong with this program.";
-    //cin.get(); // waiting for user to press return.
+    //  cin.get(); // waiting for user to press return.
     
     return 0;
 }

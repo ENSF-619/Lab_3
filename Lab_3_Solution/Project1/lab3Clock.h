@@ -1,12 +1,17 @@
 
-// cplx_number.h
-// ENSF 619 Fall 2020 LAB 3 - EXERCISE D
+/*
+* File Name: lab3Clock.h
+* Lab #3
+* Completed by: Ziad Chemali
+* Submission Date: October 9,2020
+
+*/
 
 #ifndef lab3_exe_C_Clock
 #define lab3_exe_C_Clock
-/* The following class definition represnets Complex Numbers and contains two
- * private data members called realM (the real part of a complex number),
- * and imagM (the imaginary part of a complex number).
+/* The following class definition is for Clock that represents 24 hour, and is able to 
+* create a clock, increment time by one second, or decrement time by one second.
+* 
  */
 
 class Clock {

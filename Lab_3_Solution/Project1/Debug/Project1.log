@@ -1,2 +1,8 @@
 ﻿  lab3exe_C.cpp
+  lab3Clock.cpp
+C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Project1\lab3Clock.cpp(135,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Project1\lab3Clock.cpp(141,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Project1\lab3Clock.cpp(148,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Project1\lab3Clock.cpp(153,15): warning C4244: '=': conversion from 'long double' to 'int', possible loss of data
+  Generating Code...
   Project1.vcxproj -> C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Debug\Exe_C.exe

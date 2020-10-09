@@ -65,3 +65,16 @@ void DynString::truncate(int new_length)
     lengthM = new_length;
     
 }
+void DynString::append(const DynString& tail) {
+    
+   char* updated = new char [this->lengthM + tail.lengthM+1];
+   strcpy(updated, storageM);
+   strcat(updated, tail.storageM);
+   this->lengthM += tail.lengthM;
+   delete[] this->storageM;
+   storageM = updated;
+    
+
+
+
+}

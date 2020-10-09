@@ -1,2 +1,1 @@
-﻿  lab3exe_B.cpp
-  Exe_B.vcxproj -> C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Debug\Exe_B.exe
+﻿LINK : fatal error LNK1168: cannot open C:\Users\zchem\OneDrive\Desktop\University\courses\Fall-2020\ENSF 619\Labs\Lab_3\Lab_3_Solution\Debug\Exe_B.exe for writing

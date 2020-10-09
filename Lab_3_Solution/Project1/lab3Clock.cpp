@@ -1,3 +1,11 @@
+/*
+* File Name: lab3Clock.cpp
+* Lab #3
+* Completed by: Ziad Chemali
+* Submission Date: October 9,2020
+
+*/
+
 #include<iostream>
 #include <iomanip>
 # include "lab3Clock.h"
